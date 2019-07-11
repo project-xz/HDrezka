@@ -1,3 +1,50 @@
-body{
-	
+*{
+	margin: 0;
+	padding: 
 }
+body{
+	background: black;
+	padding-top: 250px;
+	font-family: 'Ubuntu', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.wrapper{
+	direction: flex;
+	background: white;
+	width: 1000px;
+	margin: 0 auto;
+}
+header{
+	padding: 5px 20px;
+	background: #313131;
+}
+.rss {
+	color: #777;
+	transition: 0.5s;
+}
+.rss:hover {
+	color: #00F6FF
+
+}
+nav{
+	padding: 5px 20px;
+}
+::selection {
+	background: #FF0000;
+ 	color: #00FF18;
+ }
+ nav ul li{
+ 	display: inline-block;
+ 	list-style: none;
+ 	margin-right: 15px;
+ 	transition: 0.7s;
+ }
+ nav ul li a{
+ 	color: black;
+ 	transition: 0.7s;
+ }
